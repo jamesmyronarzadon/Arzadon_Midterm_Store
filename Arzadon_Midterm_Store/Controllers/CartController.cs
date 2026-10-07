@@ -56,7 +56,7 @@ namespace Arzadon_Midterm_Store.Controllers
 
             await _context.SaveChangesAsync();
 
-            return RedirectToAction("Index", "Products");
+            return RedirectToAction(nameof(Index));
         }
 
         // UPDATE QUANTITY
