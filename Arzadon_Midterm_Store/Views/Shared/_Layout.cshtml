@@ -51,7 +51,13 @@
                                 Products
                             </a>
                         </li>
-
+                                <li class="nav-item">
+        <a class="nav-link"
+           asp-controller="Cart"
+           asp-action="Index">
+            Cart
+        </a>
+    </li>
                     </ul>
 
                 </div>
@@ -64,23 +70,6 @@
     <main role="main">
         @RenderBody()
     </main>
-
-
-    <!-- Footer -->
-    <footer class="store-footer">
-        <div class="container text-center">
-
-            <p class="mb-1">
-                <strong>Arzadon Store</strong>
-            </p>
-
-            <p class="mb-0">
-                &copy; 2026 Arzadon Store
-            </p>
-
-        </div>
-    </footer>
-
 
     <!-- Scripts -->
     <script src="~/lib/jquery/dist/jquery.min.js"></script>

@@ -33,8 +33,7 @@
                         </p>
 
                         <p class="mb-1">
-                            <strong>Category:</strong>
-                            @product.Category
+                            <strong>Category:</strong> @product.Category
                         </p>
 
                         <p class="fw-bold fs-5">
@@ -54,20 +53,22 @@
                                class="btn btn-danger">
                                 Delete
                             </a>
-<form asp-controller="Cart"
-      asp-action="AddToCart"
-      method="post"
-      class="d-inline">
 
-    <input type="hidden"
-           name="productId"
-           value="@product.Id" />
+                            <form asp-controller="Cart"
+                                  asp-action="AddToCart"
+                                  method="post"
+                                  class="d-inline">
 
-    <button type="submit"
-            class="btn btn-success">
-        Add to Cart
-    </button>
-</form>
+                                <input type="hidden"
+                                       name="productId"
+                                       value="@product.Id" />
+
+                                <button type="submit"
+                                        class="btn btn-success">
+                                    Add to Cart
+                                </button>
+
+                            </form>
 
                         </div>
 

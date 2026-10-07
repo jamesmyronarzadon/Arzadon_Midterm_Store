@@ -23,47 +23,7 @@ body {
     font-family: "Segoe UI", Arial, sans-serif;
 }
 
-/* Navbar */
 
-.store-navbar {
-    background-color: #ffffff;
-    border-bottom: 1px solid #f0dfe4;
-    padding: 15px 0;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-}
-
-.store-logo {
-    font-size: 1.35rem;
-    font-weight: 700;
-    color: #b45f76 !important;
-    letter-spacing: 0.3px;
-}
-
-.store-nav-link {
-    color: #555 !important;
-    font-weight: 500;
-    padding: 8px 18px !important;
-    border-radius: 20px;
-    transition: 0.2s ease;
-}
-
-.store-nav-link:hover {
-    background-color: #fcecef;
-    color: #b45f76 !important;
-}
-
-/* Footer */
-
-.store-footer {
-    margin-top: 60px;
-    padding: 25px 0;
-    background-color: #ffffff;
-    border-top: 1px solid #f0dfe4;
-    color: #777;
-}
 
 .form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
   color: var(--bs-secondary-color);
